@@ -4,7 +4,7 @@ from datetime import datetime as dt
 # set zip code
 # zipcode = '03755'
 
-def scrape_pollen(zipcode, async=False):
+def scrape_pollen(zipcode, asynchr=False):
     """
     Function to scrape pollen data from Pollen.com
     Returns JSON with pollen data and timestamp (for validation/debugging)
